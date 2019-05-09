@@ -40,7 +40,7 @@ h5,
 h6 {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  color: #002347; }
+  color: #c6cbcc; }
 
 .list {
   list-style: none;
@@ -2888,9 +2888,9 @@ h6 {
 ============================================================================================ */
 .primary-btn {
   display: inline-block;
-  background: #fdc632;
+  background: #7f8040;
   padding: 0px 48px;
-  color: #002347;
+  color: #c6cbcc;
   font-size: 13px;
   font-weight: 500;
   line-height: 50px;
@@ -2904,14 +2904,14 @@ h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .primary-btn:hover {
-    background: #002347;
-    color: #fdc632; }
+    background: #c6cbcc;
+    color: #7f8040;}
 
 .primary-btn2 {
   display: inline-block;
-  background: #002347;
+  background: #7f8040;
   padding: 0px 48px;
-  color: #fdc632;
+  color: #c6cbcc;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -2926,9 +2926,8 @@ h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .primary-btn2:hover {
-    background: transparent;
-    color: #002347;
-    border: 1px solid #002347; }
+    background: #c6cbcc;
+    color: #7f8040;}
 
 .white_bg_btn {
   background: #fff;

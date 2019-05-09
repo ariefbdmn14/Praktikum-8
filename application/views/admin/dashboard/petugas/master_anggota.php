@@ -14,12 +14,11 @@
     <section class="content-header">
       <h1>
         Dashboard
-        <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
             <li class="active">Dashboard</li>
-            <li class="active">Master Data Anggota</li>
+            <li class="active">Data Anggota</li>
           </ol>
     </section>
     <!-- Main content -->
@@ -81,17 +80,6 @@
                       </tr>
                       <?php } ?>
                     </tbody>
-                    <tfoot>
-                      <tr>
-                        <th>No</th>
-                        <th>Kode Anggota</th>
-                        <th>Nama Anggota</th>
-                        <th>Prodi</th>
-                        <th>Jenjang</th>
-                        <th>Alamat</th>
-                        <th>Aksi</th>
-                      </tr>
-                    </tfoot>
                   </table>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->

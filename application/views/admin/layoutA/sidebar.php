@@ -4,7 +4,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php echo base_url('assets/admin/dist')?>/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url('assets/admin/dist')?>/img/user10-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Anggota</p>
@@ -20,8 +20,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('Perpustakaan/pinjamBuku')?>"><i class="fa fa-circle-o"></i>Pinjam Buku</a></li>
-            <li><a href="<?php echo base_url('Perpustakaan/riwayatPeminjam')?>"><i class="fa fa-circle-o"></i>Riwayat Peminjaman Buku</a></li>
+            <li><a href="<?php echo base_url('Perpustakaan/pinjamBuku')?>"><i class="fa fa-circle-o"></i>Buku</a></li>
+            <li><a href="<?php echo base_url('Perpustakaan/riwayatPeminjam')?>"><i class="fa fa-circle-o"></i>Riwayat</a></li>
           </ul>
         </li>
       </ul>

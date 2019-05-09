@@ -14,12 +14,11 @@
     <section class="content-header">
       <h1>
         Dashboard
-        <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
             <li class="active">Dashboard</li>
-            <li class="active">Master Data Peminjaman Buku</li>
+            <li class="active">Data Peminjaman Buku</li>
           </ol>
     </section>
     <!-- Main content -->
@@ -78,16 +77,6 @@
                       </tr>
                       <?php } ?>
                     </tbody>
-                    <tfoot>
-                      <tr>
-                        <th>No</th>
-                        <th>Nama Peminjam</th>
-                        <th>Petugas Yang Melayani</th>
-                        <th>Judul Buku</th>
-                        <th>Tanggal Peminjaman</th>
-                        <th>Tanggal Mengembalikan</th>
-                      </tr>
-                    </tfoot>
                   </table>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->

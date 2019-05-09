@@ -23,11 +23,44 @@
             <div class="col-lg-12">
               <div class="banner_content text-center" style="margin-top: 20%;">
                 <h2 class="text-uppercase mt-4 mb-5">
-                  Masuk Sebagai?
+                  Sistem 'CRUD' Perpustakaan
                 </h2>
                 <div>
-                  <a href="<?php echo base_url('/Perpustakaan/petugas'); ?>" class="primary-btn2 mb-3 mb-sm-0">Petugas</a>
-                  <a href="<?php echo base_url('/Perpustakaan/anggota'); ?>" class="primary-btn ml-sm-3 ml-0">Anggota</a>
+                  <a href="<?php echo base_url('/login'); ?>"
+                  style="display: inline-block;
+                  background: #7f8040;
+                  padding: 0px 48px;
+                  color: #c6cbcc;
+                  font-size: 13px;
+                  font-weight: 500;
+                  line-height: 50px;
+                  border-radius: 5px;
+                  outline: none !important;
+                  text-align: center;
+                  text-transform: uppercase;
+                  cursor: pointer;
+                  -webkit-transition: all 0.3s ease 0s;
+                  -moz-transition: all 0.3s ease 0s;
+                  -o-transition: all 0.3s ease 0s;
+                  transition: all 0.3s ease 0s;">Pustakawan</a>
+                  <a href="<?php echo base_url('/Perpustakaan/anggota'); ?>" 
+                  style="display: inline-block;
+                  background: #7f8040;
+                  padding: 0px 48px;
+                  color: #c6cbcc;
+                  font-size: 13px;
+                  font-weight: 500;
+                  line-height: 48px;
+                  border-radius: 5px;
+                  border: 1px solid transparent;
+                  outline: none !important;
+                  text-align: center;
+                  text-transform: uppercase;
+                  cursor: pointer;
+                  -webkit-transition: all 0.3s ease 0s;
+                  -moz-transition: all 0.3s ease 0s;
+                  -o-transition: all 0.3s ease 0s;
+                  transition: all 0.3s ease 0s;">Anggota</a>
                 </div>
               </div>
             </div>

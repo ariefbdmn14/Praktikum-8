@@ -13,8 +13,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Control panel</small>
+        Login as: Pustakawan
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -31,10 +30,9 @@
             <!-- /.box-header -->
              <div class="box box-default">
               <div class="box-header with-border">
-                <h3 class="box-title">Dashboard Petugas</h3>
+                <h3 class="box-title">Dashboard</h3>
               </div>
               <div class="box-body">
-                Selamat Anda Berhasil Login Sebagai Petugas
               </div>
               
               <!-- /.box-body -->
