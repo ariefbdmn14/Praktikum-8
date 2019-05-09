@@ -20,8 +20,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<<<<<<< HEAD
               <img src="<?php echo base_url('assets/admin/dist')?>/img/user11-160x160.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">muhariefb</span>
+=======
+              <img src="<?php echo base_url('assets/admin/dist')?>/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs"><?php echo $this->session->userdata('username');?></span>
+>>>>>>> cd29bcd14ea59d3892696ba0a886799748e77dd0
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -29,7 +34,11 @@
                 <img src="<?php echo base_url('assets/admin/dist')?>/img/user11-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
+<<<<<<< HEAD
                   Muhammad Arief Budiman
+=======
+                  <?php echo $this->session->userdata('username');?>
+>>>>>>> cd29bcd14ea59d3892696ba0a886799748e77dd0
                 </p>
               </li>
               <!-- Menu Footer-->
@@ -38,7 +47,7 @@
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="<?php echo base_url('Login/logout')?>" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>

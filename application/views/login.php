@@ -101,46 +101,39 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="banner_content text-center" style="margin-top: 20%;">
-                <h2 class="text-uppercase mt-4 mb-5">
-                  Sistem 'CRUD' Perpustakaan
-                </h2>
-                <div>
-                  <a href="<?php echo base_url('/login'); ?>"
-                  style="display: inline-block;
-                  background: #7f8040;
-                  padding: 0px 48px;
-                  color: #c6cbcc;
-                  font-size: 13px;
-                  font-weight: 500;
-                  line-height: 50px;
-                  border-radius: 5px;
-                  outline: none !important;
-                  text-align: center;
-                  text-transform: uppercase;
-                  cursor: pointer;
-                  -webkit-transition: all 0.3s ease 0s;
-                  -moz-transition: all 0.3s ease 0s;
-                  -o-transition: all 0.3s ease 0s;
-                  transition: all 0.3s ease 0s;">Pustakawan</a>
-                  <a href="<?php echo base_url('/Perpustakaan/anggota'); ?>" 
-                  style="display: inline-block;
-                  background: #7f8040;
-                  padding: 0px 48px;
-                  color: #c6cbcc;
-                  font-size: 13px;
-                  font-weight: 500;
-                  line-height: 48px;
-                  border-radius: 5px;
-                  border: 1px solid transparent;
-                  outline: none !important;
-                  text-align: center;
-                  text-transform: uppercase;
-                  cursor: pointer;
-                  -webkit-transition: all 0.3s ease 0s;
-                  -moz-transition: all 0.3s ease 0s;
-                  -o-transition: all 0.3s ease 0s;
-                  transition: all 0.3s ease 0s;">Anggota</a>
+              <div class="banner_content text-center" style="margin-top: 13%;">
+                <div class="container">
+                    <?php if($this->session->flashdata('msg_alert_error')) { ?>
+                      <div class="alert alert-danger">
+                          <?=$this->session->flashdata('msg_alert_error');?>
+                      </div>
+                    <?php } ?>
+                    <?php if($this->session->flashdata('msg_alert')) { ?>
+                      <div class="alert alert-success">
+                          <?=$this->session->flashdata('msg_alert');?>
+                      </div>
+                    <?php } ?>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-md-offset-4">
+                            <h1 class="text-center login-title">Sign in to Perpustakaan</h1>
+                            <div class="account-wall">
+                                <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
+                                    alt="">
+                                <form class="form-signin" method="POST" action="<?php echo base_url('Login/auth');?>" enctype="multipart/form-data">
+                                <input type="text" class="form-control" placeholder="username" name="username" required autofocus>
+                                <input type="password" class="form-control" placeholder="Password" name="password" required>
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                                    Sign in</button>
+                                <label class="checkbox pull-left">
+                                    <input type="checkbox" value="remember-me">
+                                    Remember me
+                                </label>
+                                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                                </form>
+                                <a href="<?php echo base_url('Login/viewRegis');?>" class="text-center new-account">Create an account </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>
